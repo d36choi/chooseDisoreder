@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+
+    <item android:drawable="@android:color/holo_orange_light"/>
+
+    <item>
+        <bitmap android:src="@drawable/baker"
+
+        android:gravity="center">
+
+        </bitmap>
+    </item>
+    <item>
+        <shape>
+            <stroke android:color="#FF9800"
+                android:width="10dp"/>
+        </shape>
+    </item>
+</layer-list>
