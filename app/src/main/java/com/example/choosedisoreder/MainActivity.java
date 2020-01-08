@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         for (int i=0; i<100; i++) {
-            list.add(String.format("TEXT %d", i)) ;
+            list.add(String.format("TEXT!!! %d", i)) ;
         }
 
         // 리사이클러뷰에 LinearLayoutManager 객체 지정.
